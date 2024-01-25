@@ -1,6 +1,7 @@
-//Study of SSAFY
-//ProblemNo: 1546
-//Author: pasta (JungJonghwa)
+// Subject: Study of Algorithm with SSAFY
+// ProblemNo: 1546
+// Language: C++
+// Author: pasta (JungJonghwa)
 #include <iostream>
 #include <algorithm>
 #include <vector>
