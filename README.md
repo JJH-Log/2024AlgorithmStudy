@@ -1,5 +1,5 @@
 <details>
-<summary style="background:#303038; color:#fff; "> 1주차 문제 리스트 </span> </summary>
+<summary color="red"> 1주차 문제 리스트 </summary>
 <div markdown="1">
   
 |번호|티어|제목|
