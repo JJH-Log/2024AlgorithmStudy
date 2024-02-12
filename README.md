@@ -1,5 +1,5 @@
 <details>
-<summary  style="background:#303038; color:#fff; font-size:xx-large; font-weight: bold; padding:10px; outline:0; border-radius:5px; cursor:pointer; transition:background 0.5s; text-align:left; box-shadow: 1px 1px 2px gray;"> 1주차 문제 리스트 </summary>
+<summary style="background:#303038; color:#fff; "> 1주차 문제 리스트 </span> </summary>
 <div markdown="1">
   
 |번호|티어|제목|
