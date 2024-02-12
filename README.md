@@ -1,3 +1,24 @@
+## 스터디 소개
+
+저희 스터디는 매주 제시되는 문제를 자율적으로 학습하고,  
+멘토&멘티 시스템을 통해 서로 도움을 주고 성장하는 방향으로 운영하고 있습니다.  
+구체적인 운영 계획은 아래와 같습니다.
+
+### 문제 선정
+- https://solved.ac/class
+- 매주 월요일마다 2~6 클래스 문제들을 대상으로 선정하여 백준 그룹의 '문제집' 란에 게시합니다.
+  - **Essential Course**: 일주일마다 각 클래스 내의 에센셜 문제 중 3문제씩 선정합니다. (총 15문제)
+  - **Perfect Course**: 일주일마다 각 클래스의 나머지 문제 중 3문제씩 선정합니다. (총 15문제)
+- 선정 기준은 랜덤이므로, 문제 풀이를 위한 방향(알고리즘 선정) 부터 직접 설계하는걸 권장합니다.
+- 개인적인 의견으로는, 코딩 테스트 역량을 키우는 데는 Class 4까지만 푸셔도 충분합니다.
+<br>
+### 문제 풀이
+  - 매주 제작된 문제집 중 자신의 난이도에 맞는 문제집 2개 이상 풀어옵니다.
+  - 작성한 코드는 개인 깃헙에 업로드 해야 합니다. (개인 관리용 & 숙제 체크용)
+  - 올리신 코드는 첨삭을 위해 온라인 컴파일러 사이트 (onlinegdb.com) 에서 문제없이 돌아가야 합니다.
+<br>
+
+## 문제 리스트 & 프리뷰
 <details>
 <summary> 1주차 문제 리스트 </summary>
 <div markdown="1">
@@ -121,9 +142,129 @@
 [11280 2-SAT - 3](https://www.acmicpc.net/problem/11280)
 * 이 문제의 하위 개념까지 배우고 왔다면 사실 저희 스터디에서 배울 게 딱히 없긴 해요
 * 하위 개념 문제로 유명한 문제를 하나 소개해드리겠습니다. (아래꺼부터 풀고 와야 함)
-* 종훈님이 공부하고 계시길래, 응용 문제 하나 추가해드립니다 ^ㅁ^...
   * [2150 Strongly Connected Component](https://www.acmicpc.net/problem/2150)
   * [12880 그래프 차이 최소](https://www.acmicpc.net/problem/12880)
+
+</div>
+</details>
+
+
+<details>
+<summary> 3주차 문제 프리뷰 </summary>
+<div markdown="1">
+
+## CLASS2
+[10814 나이순 정렬](https://www.acmicpc.net/problem/10814)
+* 클래식한 정렬 문제입니다. 정렬 방법을 '잘' 구현하는 건 앞으로도 도움이 되니 확실하게 익혀두시기 바랍니다.
+  * [11651 좌표 정렬하기 2](https://www.acmicpc.net/problem/11651)
+  * [5648 역원소 정렬](https://www.acmicpc.net/problem/5648)
+
+[10845 큐](https://www.acmicpc.net/problem/10845)
+* 더러운 구현 문제지만 한번쯤은 이런걸 해둘 필요가 있습니다.
+* 명령이 들어오고 처리하는 문제에서, 각 명령을 함수화 시키는 연습을 해두면 좋습니다. 가령 아래처럼...
+```
+while(N--){
+    cin >> s;
+    if(s == "push") _push();
+    if(s == "pop") _pop();
+    if(s == "size") _size();
+    if(s == "empty") _empty();
+    if(s == "front") _front();
+    if(s == "back") _back();
+}
+```
+
+[11050 이항 계수 1](https://www.acmicpc.net/problem/11050)
+* 아직 최적화가 필요없는 이항 계수 문제입니다.
+* 이항 계수와 관련하여 최적화를 요구하는 문제가 굉장히 많으며, 그 난이도도 다양합니다.
+* 여기서는 실버, 골드 수준 문제만 소개하겠습니다.
+  * [11051 이항 계수 2](https://www.acmicpc.net/problem/11051)
+  * [15824 너 봄에는 캡사이신이 맛있단다](https://www.acmicpc.net/problem/15824)
+  * [11401 이항 계수 3](https://www.acmicpc.net/problem/11401)
+
+## CLASS3
+[1003 피보나치 함수](https://www.acmicpc.net/problem/1003)
+* 피보나치도 알고리즘에서 굉장히 많이 응용되는 수열 중 하나입니다
+* 비슷한 문제들을 모두 모아봤습니다 (골드 문제는 응용 & 최적화가 필요합니다)
+  * [10826 피보나치 수 4](https://www.acmicpc.net/problem/10826)
+  * [1788 피보나치 수의 확장](https://www.acmicpc.net/problem/1788)
+  * [15624 피보나치 수 7](https://www.acmicpc.net/problem/15624)
+  * [14495 피보나치 비스무리한 수열](https://www.acmicpc.net/problem/15624)
+  * [17175 피보나치는 지겨웡~](https://www.acmicpc.net/problem/15624)
+  * [9009 피보나치](https://www.acmicpc.net/problem/9009)
+  * [11442 홀수번째 피보나치 수의 합 (골드)](https://www.acmicpc.net/problem/11442)
+  * [11443 짝수번째 피보나치 수의 합 (골드)](https://www.acmicpc.net/problem/11443)
+  * [11444 피보나치 수 6 (골드)](https://www.acmicpc.net/problem/11444)
+
+[11723 집합](https://www.acmicpc.net/problem/11723)
+* 딱히 적을 말이 없네요 귀찮은 구현 문제입니다.
+
+[2630 색종이 만들기](https://www.acmicpc.net/problem/2630)
+* 좋은 문제이고, 이런 유형이 코테에 종종 나옵니다. 아래 문제들도 적극 추천드립니다.
+  * [17829 222-풀링](https://www.acmicpc.net/problem/17829)
+  * [9097 Quad Trees](https://www.acmicpc.net/problem/9097)
+
+
+## CLASS4
+[1753 최단경로](https://www.acmicpc.net/problem/1753)
+* 저번주 파티(1238) 문제를 풀었다면 아마 쉽게 풀었으리라 생각합니다.
+* 그러므로 저번주 문제를 그대로 추천드리며, 혹시라도 다 푸신 분을 위해 문제 하나 추가하겠습니다.
+  * [5529 저택](https://www.acmicpc.net/problem/5529)
+
+[15650 N과 M(2)](https://www.acmicpc.net/problem/15650)
+* 수업에서 다뤘던 문제입니다. 복습 느낌으로 아래 문제들을 풀어보세요 (다풀면 백트래킹 마스터)
+  * [15649 N과 M(1)](https://www.acmicpc.net/problem/15649)
+  * [15651 N과 M(3)](https://www.acmicpc.net/problem/15651)
+  * [15652 N과 M(4)](https://www.acmicpc.net/problem/15652)
+  * [15654 N과 M(5)](https://www.acmicpc.net/problem/15654)
+  * [15655 N과 M(6)](https://www.acmicpc.net/problem/15655)
+  * [15656 N과 M(7)](https://www.acmicpc.net/problem/15656)
+  * [15657 N과 M(8)](https://www.acmicpc.net/problem/15657)
+  * [15663 N과 M(9)](https://www.acmicpc.net/problem/15663)
+  * [15664 N과 M(10)](https://www.acmicpc.net/problem/15664)
+  * [15665 N과 M(11)](https://www.acmicpc.net/problem/15665)
+
+[1918 후위 표기식](https://www.acmicpc.net/problem/1918)
+* 이론으로만 배웠던 후위 표기식을 실습하는 문제입니다!
+* 처음에 구현하기 정말정말 어려워요. 그래도 포기하지 말고 도전해보길 바래요
+
+
+## CLASS5
+[17387 선분 교차 2](https://www.acmicpc.net/problem/17387)
+* 솔직히 코테에 큰 도움이 되는 문제는 아닙니다.
+* 그래도 기하학 문제를 풀면 수학적 사고력이 많이 올라가니 시간이 남으면 도전해보세요
+* 아래 문제는 기하학에서 주로 다루는 CCW를 소개하고 있습니다.
+  * [11758 CCW](https://www.acmicpc.net/problem/11758)
+  * [17386 선분 교차 1](https://www.acmicpc.net/problem/17386)
+  * [12781 PIZZA ALBOLOC](https://www.acmicpc.net/problem/12781)
+
+[12100 2048 (Easy)](https://www.acmicpc.net/problem/12100)
+* 쉽지 않은 시뮬레이션 문제입니다. 구슬 탈출과 로직이 비슷해보이지만 저한테는 훨씬 더 까다로운 문제였습니다.
+* Hard까지 도전...?
+  * [12094 2048 (Hard)](https://www.acmicpc.net/problem/12094)
+
+[14003 가장 긴 증가하는 부분 수열 5](https://www.acmicpc.net/problem/14003)
+* 코테에서, 만약 LIS를 가장 어렵게 낸다면 이 정도 난이도가 될 듯 합니다
+* 그러니까 이거 이해하고 적절히 잘 구현했다면, 앞으로 어떤 코테도 무난하게 풀 수 있을거에요
+  * [3745 오름세](https://www.acmicpc.net/problem/3745)
+
+
+## CLASS6
+[1533 길의 개수](https://www.acmicpc.net/problem/1533)
+* 단순히 구현하면 시간초과가 나기 때문에, Class 5 정도의 알고리즘을 적절히 잘 응용하는 문제입니다.
+* 다시 말해서 Class 5를 풀고 오셨다면 이 문제도 충분히 푸실 수 있습니다.
+
+[1789 찾기](https://www.acmicpc.net/problem/1786)
+* 정말 유명한 kmp 알고리즘을 배우는 문제입니다.
+* 1학기 수업 중에 배우는 걸로 아는데, 미리 배워두면 나중에 따라가기 훨씬 쉬워질 겁니다.
+* kmp 문제들 대부분이 주제가 kmp라는 걸 아는 순간 쉬워지는 문제들이라서... 응용 문제 하나만 남겨두겠습니다.
+  * [13506 카멜레온 부분 문자열](https://www.acmicpc.net/problem/13506)
+
+[2042 구간 합 구하기](https://www.acmicpc.net/problem/2042)
+* 어쩌면 Class 6 중에서 가장 쉬운 알고리즘을 배우는 문제입니다.
+* 쿼리를 처리하는 이런 유형의 문제가 플래티넘 이상 문제의 10%는 차지하니, 구현 방법을 잘 숙지해둬야 나중에 응용 문제에서 헤매지 않을겁니다.
+  * [14438 수열과 쿼리 17](https://www.acmicpc.net/problem/14438)
+  * [11505 구간 곱 구하기](https://www.acmicpc.net/problem/11505)
 
 </div>
 </details>
