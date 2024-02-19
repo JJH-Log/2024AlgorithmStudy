@@ -13,9 +13,9 @@
 - 개인적인 의견으로는, 코딩 테스트 역량을 키우는 데는 Class 4까지만 푸셔도 충분합니다.
 <br>
 ### 문제 풀이
-  - 매주 제작된 문제집 중 자신의 난이도에 맞는 문제집 2개 이상 풀어옵니다.
-  - 작성한 코드는 개인 깃헙에 업로드 해야 합니다. (개인 관리용 & 숙제 체크용)
-  - 올리신 코드는 첨삭을 위해 온라인 컴파일러 사이트 (onlinegdb.com) 에서 문제없이 돌아가야 합니다.
+- 매주 제작된 문제집 중 자신의 난이도에 맞는 문제집 2개 이상 풀어옵니다.
+- 작성한 코드는 개인 깃헙에 업로드 해야 합니다. (개인 관리용 & 숙제 체크용)
+- 올리신 코드는 첨삭을 위해 온라인 컴파일러 사이트 (onlinegdb.com) 에서 문제없이 돌아가야 합니다.
 <br>
 
 ## 문제 리스트 & 프리뷰
@@ -271,10 +271,9 @@ while(N--){
 
 
 <details>
-<summary> 4주차 문제 리스트 & 리뷰 </summary>
+<summary> 4주차 문제 리스트 & 리뷰 <a href="https://renecantata.notion.site/4-07811d69ab4d4a58bfd6f9292aeb812a?pvs=4"> 🔗 </a></summary>
 <div markdown="1">
 
-4주차 문제 리뷰 <a href="https://renecantata.notion.site/4-07811d69ab4d4a58bfd6f9292aeb812a?pvs=4"> 🔗 </a>
 |분류|번호|제목|링크|
 |--|--|--|--|
 |<img src="class/c2.svg">|2609|최대공약수와 최소공배수|<a href="https://www.acmicpc.net/problem/2609"> 🔗 </a>
