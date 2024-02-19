@@ -268,3 +268,30 @@ while(N--){
 
 </div>
 </details>
+
+
+<details>
+<summary> 4주차 문제 리스트 & 리뷰 </summary>
+<div markdown="1">
+
+4주차 문제 리뷰 <a href="https://renecantata.notion.site/4-07811d69ab4d4a58bfd6f9292aeb812a?pvs=4"> 🔗 </a>
+|분류|번호|제목|링크|
+|--|--|--|--|
+|<img src="class/c2.svg">|2609|최대공약수와 최소공배수|<a href="https://www.acmicpc.net/problem/2609"> 🔗 </a>
+|<img src="class/c2.svg">|10866|덱|<a href="https://www.acmicpc.net/problem/10866"> 🔗 </a>
+|<img src="class/c2.svg">|2751|수 정렬하기2|<a href="https://www.acmicpc.net/problem/2751"> 🔗 </a>
+|<img src="class/c3.svg">|7576|토마토|<a href="https://www.acmicpc.net/problem/7576"> 🔗 </a>
+|<img src="class/c3.svg">|18870|좌표 압축|<a href="https://www.acmicpc.net/problem/18870"> 🔗 </a>
+|<img src="class/c3.svg">|1764|듣보잡|<a href="https://www.acmicpc.net/problem/1764"> 🔗 </a>
+|<img src="class/c4.svg">|1932|정수 삼각형|<a href="https://www.acmicpc.net/problem/1932"> 🔗 </a>
+|<img src="class/c4.svg">|15663|N과 M (9)|<a href="https://www.acmicpc.net/problem/15663"> 🔗 </a>
+|<img src="class/c4.svg">|11725|트리의 부모 찾기|<a href="https://www.acmicpc.net/problem/11725"> 🔗 </a>
+|<img src="class/c5.svg">|2166|다각형의 면적|<a href="https://www.acmicpc.net/problem/2166"> 🔗 </a>
+|<img src="class/c5.svg">|1202|보석 도둑|<a href="https://www.acmicpc.net/problem/1202"> 🔗 </a>
+|<img src="class/c5.svg">|1208|부분수열의 합 2|<a href="https://www.acmicpc.net/problem/1208"> 🔗 </a>
+|<img src="class/c6.svg">|1725|히스토그램|<a href="https://www.acmicpc.net/problem/1725"> 🔗 </a>
+|<img src="class/c6.svg">|16287|Parcel|<a href="https://www.acmicpc.net/problem/16287"> 🔗 </a>
+|<img src="class/c6.svg">|2357|최솟값과 최댓값|<a href="https://www.acmicpc.net/problem/2357"> 🔗 </a>
+
+</div>
+</details>
